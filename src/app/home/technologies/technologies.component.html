@@ -1,0 +1,27 @@
+<div id="f1_container">
+  <div id="f1_card" class="shadow">
+    <div class="front face">
+      <img class="techImgClass" src={{techName}} />
+
+    </div>
+    <div class="back face center">
+      <div class="headStyle">
+        {{techKnown.name}} Concepts Used
+        <div class="horizontalLine"></div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-12 " *ngFor="let concept of techKnown.concepts">
+          <div class="conceptStyle">
+            {{concept.name}}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="frontText">
+    <span> Relavant Exp.: {{techKnown.relativeExperice}}</span>
+    <span> Number of Projects: {{techKnown.numberOfProjects}} </span>
+  </div>
+
+</div>

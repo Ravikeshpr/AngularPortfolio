@@ -1,0 +1,52 @@
+.customFloat {
+  float: right;
+}
+.container-fluid {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.navbar-inverse,
+.navbar-inverse .navbar-toggle {
+  background-color: #3f5440;
+  border-color: #8a6d3b;
+  padding-left: 2% !important;
+}
+.navbar-inverse .navbar-nav {
+  color: white;
+  padding-left: 2%;
+  font-size: 18px;
+}
+
+.navbar-inverse .navbar-nav > li > a:focus,
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-toggle:active {
+  background-color: #8a6d3b;
+}
+.navbar-inverse .navbar-brand {
+  color: white;
+  font-family: cursive;
+}
+
+.navWrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+@media (max-width: 768px) {
+  .customFloat {
+    float: left;
+  }
+}
+@media (min-width: 768px) {
+  .navbar {
+    top: 15px;
+    border-radius: 30px;
+    width: 80%;
+    margin: auto;
+    padding: 5px;
+  }
+}

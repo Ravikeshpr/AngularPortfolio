@@ -1,0 +1,25 @@
+body {
+  background: url("/assets/bg3.jpeg") no-repeat fixed 100% 29%;
+  background-size: cover;
+}
+
+.img-circle {
+  border-radius: 25% !important;
+}
+
+.container-fluid {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.mainContainer {
+  padding-top: 85px;
+  margin: auto;
+  width: 80%;
+}
+
+@media (max-width: 768px) {
+  body {
+    background-size: cover;
+  }
+}

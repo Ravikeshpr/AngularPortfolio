@@ -1,0 +1,17 @@
+:host >>> .panel-heading {
+  background-color: #333a44;
+  color: white;
+}
+:host >>> .panel {
+  background-color: #d9edf7;
+}
+:host >>> .panel-default {
+  border: 1px solid #8a6d3b;
+}
+
+.accordinHead {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: #fff;
+}

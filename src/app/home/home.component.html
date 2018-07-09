@@ -1,0 +1,75 @@
+<div class="container-fluid">
+  <div class="mainImgContainer">
+    <!-- <img class="jumbo" src="./assets/businessmen.jpg"> -->
+
+    <div class="contactDetails">
+
+    </div>
+    <div class="contactContent">
+      <span> Contact Details:</span>
+      <div> Ph# 0468311767</div>
+      <div> Ravikeshpr@gmail.com</div>
+
+    </div>
+  </div>
+  <div class="container-fluid contentDiv">
+    <div class="row">
+      <div class="col-sm-1">
+      </div>
+      <div class="col-sm-2">
+
+        <img src="./assets/me.jpg" class="img-circle imgCircleDim" alt="RPS">
+
+      </div>
+      <div class="col-sm-2">
+        <div class="row">
+          <div class="col-xs-4 col-sm-12">
+            <img class="rpsImg" src="./assets/r.png">
+            <span class="rpsLabel">avikesh</span>
+          </div>
+          <div class="col-xs-4 col-sm-12">
+            <img class="rpsImg" src="./assets/p.png">
+            <span class="rpsLabel">ratap</span>
+          </div>
+          <div class="col-xs-4 col-sm-12">
+            <img class="rpsImg" src="./assets/s.png">
+            <span class="rpsLabel">ingh</span>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-sm-6 mainText">
+        <h4>FRONTEND
+          <span style="color:#8a6d3b"> DESIGNER, DEVELOPER </span>
+          <span id="u25193-4">&amp;</span>
+          <span style="color:#8a6d3b"> ANALYST.</span>
+
+          <br/> WITH PROFESSIONAL EXPERIENCE OF MORE THAN
+          <br/>
+          <span style="color:#8a6d3b">6 YEARS</span> IN RESPONSIVE AND SCALABLE,
+          <span style="color:#8a6d3b">UI AND WEB DEVELOPMENT. </span> USING LATEST TECHNOLOGIES IN DOMAIN.
+          <br/>
+          <span style="color:#8a6d3b"> REACT, NODE, ANGULAR, JASMIN, JEST, ENZYME, NPM , etc.</span>
+        </h4>
+        <h4>Different Library Ecosystem Used:</h4>
+        <h4 style="color:#8a6d3b"> Reactjs: </h4>
+        <p> Reactjs, Redux, react-redux, redux-saga, react-router, redux-form,redux-middlewares, selectors, recompose, ES6, styled-components,
+          grid-styled, jest, enzyme.</p>
+        <h4 style="color:#8a6d3b"> Angular: </h4>
+        <p> Angularjs, Angular 4, Typescript, Services, Pipes, Directives, Rxjs, Selenium, mocha, Angular-cli, Routing, lazy-loading.</p>
+      </div>
+      <div class="col-sm-1">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 ">
+        <div class="row">
+          <div class="col-sm-3 " *ngFor="let technology of technologies">
+            <app-technologies [techName]='technology.frontImgUrl' [techKnown]='technology'></app-technologies>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>

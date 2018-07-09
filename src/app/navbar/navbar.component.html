@@ -1,0 +1,32 @@
+<div class="navWrapper">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-brand customFloat">
+                Ravikesh Pratap Singh
+            </div>
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" (click)="toggleState()">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+            </div>
+
+            <div class="collapse navbar-collapse" [ngClass]="{ 'in': isIn, 'active':isIn }">
+                <ul class="nav navbar-nav">
+                    <li class="nav-item">
+                        <a (click)="toggleState()" routerLink="/home">ABOUT ME</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a (click)="toggleState()" routerLink="/author">PROJECTS</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+<div class="container-fluid">
+    <router-outlet></router-outlet>
+</div>
