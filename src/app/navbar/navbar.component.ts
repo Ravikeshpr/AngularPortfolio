@@ -6,13 +6,16 @@ import { Component, OnInit } from "@angular/core";
   styleUrls: ["./navbar.component.css"]
 })
 export class NavbarComponent implements OnInit {
-  isIn = "1"; // store state
+  isIn = false; // store state
+  slected = "1";
   constructor() {}
 
   ngOnInit() {}
 
-  toggleState(ind) {
+  toggleState(index) {
     // click handler
-    this.isIn = ind;
+    const bool = this.isIn;
+    this.isIn = bool === false ? true : false;
+    this.slected = index;
   }
 }

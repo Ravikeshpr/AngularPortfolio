@@ -1,17 +1,15 @@
 #f1_container {
   position: relative;
-  margin: 10px auto;
+  margin: 30px auto;
   width: 200px;
   height: 200px;
   z-index: 1;
 }
 @media (max-width: 768px) {
-  #f1_container {
-    margin: 55px auto;
-  }
 }
 #f1_container {
   perspective: 1000;
+  margin: 55px auto;
 }
 #f1_card {
   width: 200px;

@@ -18,10 +18,11 @@
   font-size: 18px;
 }
 
-.navbar-inverse .navbar-nav > li > a:focus,
-.navbar-inverse .navbar-nav > li > a:hover,
-.navbar-inverse .navbar-toggle:active {
+.navbar-inverse .navbar-nav > li > a:hover {
   background-color: #8a6d3b;
+}
+.active {
+  background-color: #8a6d3b !important;
 }
 .navbar-inverse .navbar-brand {
   color: white;
