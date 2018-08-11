@@ -1,20 +1,18 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from "@angular/core";
 
 @Component({
-  selector: 'app-navbar',
-  templateUrl: './navbar.component.html',
-  styleUrls: ['./navbar.component.css']
+  selector: "app-navbar",
+  templateUrl: "./navbar.component.html",
+  styleUrls: ["./navbar.component.css"]
 })
 export class NavbarComponent implements OnInit {
-  isIn = false;   // store state
-  constructor() { }
+  isIn = "1"; // store state
+  constructor() {}
 
-  ngOnInit() {
+  ngOnInit() {}
+
+  toggleState(ind) {
+    // click handler
+    this.isIn = ind;
   }
-
-  toggleState() { // click handler
-    const bool = this.isIn;
-    this.isIn = bool === false ? true : false;
-  }
-
 }
