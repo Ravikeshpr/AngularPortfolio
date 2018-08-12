@@ -69,9 +69,6 @@
     </div>
     <div class="row">
       <div class="col-sm-12 ">
-        <h3 style="color:#fff">
-          Hover or touch image to see Concepts Used in technologies:
-        </h3>
         <div class="row">
           <div class="col-sm-3 " *ngFor="let technology of technologies">
             <app-technologies [techName]='technology.frontImgUrl' [techKnown]='technology'></app-technologies>
