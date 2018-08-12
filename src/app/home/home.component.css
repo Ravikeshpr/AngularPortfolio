@@ -30,34 +30,12 @@
 
 .contactDetails {
   position: fixed;
-  left: 82%;
+  left: 87%;
   top: 2px;
   margin: 20px;
-  width: 180px;
-  height: 180px;
+  width: 140px;
+  height: 151px;
   background: #f00;
-  -webkit-animation-name: spin;
-  -webkit-animation-duration: 20000ms;
-  -webkit-animation-iteration-count: infinite;
-  -webkit-animation-timing-function: linear;
-  -moz-animation-name: spin;
-  -moz-animation-duration: 20000ms;
-  -moz-animation-iteration-count: infinite;
-  -moz-animation-timing-function: linear;
-  -ms-animation-name: spin;
-  -ms-animation-duration: 20000ms;
-  -ms-animation-iteration-count: infinite;
-  -ms-animation-timing-function: linear;
-}
-
-@-webkit-keyframes spin {
-  from {
-    -webkit-transform: rotate(0deg);
-  }
-
-  to {
-    -webkit-transform: rotate(360deg);
-  }
 }
 
 .contactContent {
@@ -67,10 +45,10 @@
   font-size: 0.9em;
   width: 109px;
   height: 50px;
-  left: 86%;
-  top: 80px;
+  left: 89%;
+  top: 88px;
 }
-@media (max-width: 768px) {
+@media (max-width: 766px) {
   .jumbo {
     display: none;
   }
